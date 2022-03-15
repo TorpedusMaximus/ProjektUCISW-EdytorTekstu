@@ -1,0 +1,6 @@
+V3 3
+FL C:/Users/lab/Desktop/projekt/edytorObrazu/app.vhd 2022/03/15.18:42:08 P.20131013
+EN work/vga_disp 1647366177 FL C:/Users/lab/Desktop/projekt/edytorObrazu/app.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/vga_disp/Behavioral 1647366178 \
+      FL C:/Users/lab/Desktop/projekt/edytorObrazu/app.vhd EN work/vga_disp 1647366177
