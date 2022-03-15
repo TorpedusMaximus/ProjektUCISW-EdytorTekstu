@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/projekt/edytorObrazu/vga_disp.xst" -ofn "C:/Users/lab/Desktop/projekt/edytorObrazu/vga_disp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 vga_disp.ngc vga_disp.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 vga_disp.ngc vga_disp.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 vga_disp.ngc vga_disp.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o vga_disp_map.ncd vga_disp.ngd vga_disp.pcf 
+par -w -intstyle ise -ol high -t 1 vga_disp_map.ncd vga_disp.ncd vga_disp.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml vga_disp.twx vga_disp.ncd -o vga_disp.twr vga_disp.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f vga_disp.ut vga_disp.ncd 
