@@ -1,0 +1,10 @@
+[Inputs]
+clk50
+=RGB[2:0]=
+[Outputs]
+vga_red
+vga_green
+vga_blue
+vga_hsync
+vga_vsync
+[BiDir]
