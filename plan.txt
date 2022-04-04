@@ -1,5 +1,11 @@
 1. wyswietlanie na vga
-3. ug230 https://www.xilinx.com/support/documentation/boards_and_kits/ug230.pdf
-4. pixel clock 50 MHz  http://martin.hinner.info/vga/timing.html
+1. ug230 https://www.xilinx.com/support/documentation/boards_and_kits/ug230.pdf
+1. pixel clock 50 MHz  http://martin.hinner.info/vga/timing.html
 https://github.com/rogerwwww/VGA_Display_VHDL
-2. pamiec obrazu, pameic blokowa
+
+-------------------------------------------------------
+2. kommunikacja ,mysz vga
+2. synchronizacja sterowania z vga
+
+-------------------------------------------------------
+3. pamiec obrazu, pamiec blokowa ??????
